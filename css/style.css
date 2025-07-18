@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.7px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.header {
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/pexels-ajay-donga-1113836-2174656.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+h1 {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.header .navbar {
+    /* border: 3px solid red; */
+    padding: 5px;
+
+}
+
+.header .logo,
+.header .navbar a {
+    color: aliceblue;
+
+}
+
+.header .navbar .logo {
+    float: left;
+
+}
+
+.header .navbar .navitems {
+    float: right;
+
+}
+
+.navbar::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header .navbar .navitem {
+    display: inline-block;
+}
+
+p,
+li {
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+/* .navbar {
+    display: f;
+} */
+/* .header .navbar {
+    display: flow-root;
+} */
+.header .navbar {
+    overflow: auto;
+    /* or hidden */
+}
